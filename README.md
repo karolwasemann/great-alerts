@@ -1,23 +1,23 @@
-# Przeprogramowani.pl - Opanuj JavaScript
+# Przeprogramowani.pl - Master JavaScript
 
-Moduł II. - Przeglądarka bez tajemnic
+Module II. - Browser without secrets
 
-## Ćwiczenie nr. 12 - świetne alerty
+## Exercise #12 - great alerts
 
-### Jak zacząć
+### How to get started
 
-Kliknij przycisk "Fork" u góry edytora aby skopiować ćwiczenie.
+Click the "Fork" button at the top of the editor to copy the exercise.
 
-### Cel ćwiczenia
+### Purpose of exercise
 
-Informowanie użytkownika o tym, co się dzieje z aplikacją jest priorytetem.Jednym z rodzajów takiej interakcji są różnego rodzaju alerty.
+Keeping the user informed about what is happening with the application is a priority.One type of such interaction is alerts of various kinds.
 
-Napisz klasę która:
+Write a class that:
 
-1. będzie zawierać metodę tworzącą nowy alert na podstawie Wiadomości oraz Rodzaju (Error/Warning/Success)
-2. w chwili gdy metoda zostanie wywołana, alert powinien być widoczny przez 10 sekund lub do momentu gdy użytkownik na niego kliknie
+1. will contain a method that creates a new alert based on Message and Type (Error/Warning/Success)
+2. when the method is called, the alert should be visible for 10 seconds or until the user clicks on it
 
-### Punkty bonusowe
+### Bonus points
 
-- zadbaj o to, aby wyświetlały się maksymalnie 3 alerty a pozostałe czekały na swoją kolej.
-- zadbaj o dodanie animacji pokazywania / ukrywania alertu
+- Make sure that a maximum of 3 alerts are displayed and that the rest wait for their turn.
+- Make sure to add a show/hide animation to the alerts.
