@@ -1,3 +1,32 @@
-h1, h2 {
+h1,
+h2 {
   font-family: Lato;
+}
+
+.alert {
+  animation: show 1.8s forwards;
+}
+
+.remove {
+  animation: remove 0.8s forwards;
+}
+
+@keyframes show {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes remove {
+  0% {
+    transform: scale(0.6) rotate(-360deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0) rotate(360deg);
+    opacity: 0;
+  }
 }
